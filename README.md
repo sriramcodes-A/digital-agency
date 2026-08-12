@@ -1,16 +1,59 @@
-# React + Vite
+DigitalBoost
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive digital marketing agency landing page built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 📌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigitalBoost is a frontend landing page designed for a digital marketing agency.
 
-## React Compiler
+The website focuses on a modern visual design, responsive layouts, clear navigation, interactive service cards, animated testimonials, and strong call-to-action sections.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive navigation
+- Mobile hamburger menu
+- Hero section
+- Digital marketing services
+- Interactive service cards
+- About section
+- Business statistics
+- Two-row animated testimonials
+- Hover-to-pause testimonials
+- Scroll/drag interaction for testimonials
+- Call-to-action section
+- Responsive footer
+- Smooth scrolling
+- Mobile, tablet, and desktop support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML5
+- CSS3
+ 📁 Project Structure
+digital-agency/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Services.jsx
+│   │   ├── About.jsx
+│   │   ├── Stats.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── CTA.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── tailwind.config.js
+└── vite.config.js
